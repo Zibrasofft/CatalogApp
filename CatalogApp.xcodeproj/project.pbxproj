@@ -19,6 +19,16 @@
 		0497CEA61906486600A26A9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0497CE8E1906486500A26A9C /* UIKit.framework */; };
 		0497CEAE1906486600A26A9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0497CEAC1906486600A26A9C /* InfoPlist.strings */; };
 		0497CEB01906486600A26A9C /* CatalogAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEAF1906486600A26A9C /* CatalogAppTests.m */; };
+		0497CEC9190668B300A26A9C /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEBE190668B300A26A9C /* RECommonFunctions.m */; };
+		0497CECA190668B300A26A9C /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEC0190668B300A26A9C /* REFrostedContainerViewController.m */; };
+		0497CECB190668B300A26A9C /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEC2190668B300A26A9C /* REFrostedViewController.m */; };
+		0497CECC190668B300A26A9C /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEC4190668B300A26A9C /* UIImage+REFrostedViewController.m */; };
+		0497CECD190668B300A26A9C /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEC6190668B300A26A9C /* UIView+REFrostedViewController.m */; };
+		0497CECE190668B300A26A9C /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CEC8190668B300A26A9C /* UIViewController+REFrostedViewController.m */; };
+		0497CED8190668E100A26A9C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CED1190668E100A26A9C /* HomeViewController.m */; };
+		0497CED9190668E100A26A9C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CED3190668E100A26A9C /* MenuViewController.m */; };
+		0497CEDA190668E100A26A9C /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CED5190668E100A26A9C /* NavigationController.m */; };
+		0497CEDB190668E100A26A9C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497CED7190668E100A26A9C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,26 @@
 		0497CEAB1906486600A26A9C /* CatalogAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatalogAppTests-Info.plist"; sourceTree = "<group>"; };
 		0497CEAD1906486600A26A9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0497CEAF1906486600A26A9C /* CatalogAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatalogAppTests.m; sourceTree = "<group>"; };
+		0497CEBD190668B300A26A9C /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		0497CEBE190668B300A26A9C /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		0497CEBF190668B300A26A9C /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		0497CEC0190668B300A26A9C /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		0497CEC1190668B300A26A9C /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		0497CEC2190668B300A26A9C /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		0497CEC3190668B300A26A9C /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		0497CEC4190668B300A26A9C /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		0497CEC5190668B300A26A9C /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		0497CEC6190668B300A26A9C /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		0497CEC7190668B300A26A9C /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		0497CEC8190668B300A26A9C /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		0497CED0190668E100A26A9C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0497CED1190668E100A26A9C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0497CED2190668E100A26A9C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0497CED3190668E100A26A9C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0497CED4190668E100A26A9C /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		0497CED5190668E100A26A9C /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		0497CED6190668E100A26A9C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0497CED7190668E100A26A9C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +137,21 @@
 		0497CE901906486500A26A9C /* CatalogApp */ = {
 			isa = PBXGroup;
 			children = (
+				0497CECF190668BE00A26A9C /* Controllers */,
 				0497CE991906486600A26A9C /* AppDelegate.h */,
 				0497CE9A1906486600A26A9C /* AppDelegate.m */,
+				0497CEBD190668B300A26A9C /* RECommonFunctions.h */,
+				0497CEBE190668B300A26A9C /* RECommonFunctions.m */,
+				0497CEBF190668B300A26A9C /* REFrostedContainerViewController.h */,
+				0497CEC0190668B300A26A9C /* REFrostedContainerViewController.m */,
+				0497CEC1190668B300A26A9C /* REFrostedViewController.h */,
+				0497CEC2190668B300A26A9C /* REFrostedViewController.m */,
+				0497CEC3190668B300A26A9C /* UIImage+REFrostedViewController.h */,
+				0497CEC4190668B300A26A9C /* UIImage+REFrostedViewController.m */,
+				0497CEC5190668B300A26A9C /* UIView+REFrostedViewController.h */,
+				0497CEC6190668B300A26A9C /* UIView+REFrostedViewController.m */,
+				0497CEC7190668B300A26A9C /* UIViewController+REFrostedViewController.h */,
+				0497CEC8190668B300A26A9C /* UIViewController+REFrostedViewController.m */,
 				0497CE9C1906486600A26A9C /* Images.xcassets */,
 				0497CE911906486500A26A9C /* Supporting Files */,
 			);
@@ -142,6 +185,21 @@
 				0497CEAC1906486600A26A9C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0497CECF190668BE00A26A9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0497CED0190668E100A26A9C /* HomeViewController.h */,
+				0497CED1190668E100A26A9C /* HomeViewController.m */,
+				0497CED2190668E100A26A9C /* MenuViewController.h */,
+				0497CED3190668E100A26A9C /* MenuViewController.m */,
+				0497CED4190668E100A26A9C /* NavigationController.h */,
+				0497CED5190668E100A26A9C /* NavigationController.m */,
+				0497CED6190668E100A26A9C /* SecondViewController.h */,
+				0497CED7190668E100A26A9C /* SecondViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0497CE9B1906486600A26A9C /* AppDelegate.m in Sources */,
+				0497CECC190668B300A26A9C /* UIImage+REFrostedViewController.m in Sources */,
+				0497CECE190668B300A26A9C /* UIViewController+REFrostedViewController.m in Sources */,
+				0497CECA190668B300A26A9C /* REFrostedContainerViewController.m in Sources */,
+				0497CEC9190668B300A26A9C /* RECommonFunctions.m in Sources */,
+				0497CEDB190668E100A26A9C /* SecondViewController.m in Sources */,
 				0497CE971906486500A26A9C /* main.m in Sources */,
+				0497CED8190668E100A26A9C /* HomeViewController.m in Sources */,
+				0497CECD190668B300A26A9C /* UIView+REFrostedViewController.m in Sources */,
+				0497CED9190668E100A26A9C /* MenuViewController.m in Sources */,
+				0497CECB190668B300A26A9C /* REFrostedViewController.m in Sources */,
+				0497CEDA190668E100A26A9C /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +511,7 @@
 				0497CEB51906486600A26A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0497CEB61906486600A26A9C /* Build configuration list for PBXNativeTarget "CatalogAppTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +520,7 @@
 				0497CEB81906486600A26A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
